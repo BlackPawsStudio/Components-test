@@ -9,7 +9,7 @@ import { NoteField } from "./components/NoteField";
 
 export const App = () => {
   const [selectedComponent, setSelectedComponent] =
-    useState<AvailableComponents>("Base Note Field");
+    useState<AvailableComponents>("Radio Buttons");
 
   const [isContentCentered, setIsContentCentered] = useState<boolean>(true);
 
